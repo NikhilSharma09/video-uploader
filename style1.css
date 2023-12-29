@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('back web.jpg'); /* Replace 'web.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, red, orange);
+}
+
+#fileInput {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+#videoPreview {
+    max-width: 60%;
+    margin-top: 20px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Updated to align to the left */
+    margin-top: 20px; /* Added margin for spacing */
+}
+
+.optionButton {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #b8c31e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#videoControls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#submitButton {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
